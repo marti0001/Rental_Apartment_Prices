@@ -44,7 +44,11 @@ The main objective is to **develop a predictive model** that estimates apartment
   - **Apartment Details:** Area (m²), number of rooms, and rental price.  
   - **Listing Information:** Title and description text.  
 
-#### 🏦 **2.2 Data Storage**  
+#### 🏦 **2.2 Preprocessing Data**  
+- ✔ **Text cleaning** 
+- ✔ **Separation of features**
+
+#### 🏦 **2.3 Data Storage**  
 - **Database:**  
   - The collected text data and metadata are stored in an **SQLite** database for further analysis.  
 
@@ -65,12 +69,21 @@ The main objective is to **develop a predictive model** that estimates apartment
 
 ## 🚀 Project Structure  
 
-```plaintext
+```bash
 📦 Rental-Apartment-Prices
 ├── 📁 data raw
-│   ├── olx_krakow_detailed_listings.csv  #scraped data
+│   ├── olx_krakow_detailed_listings.csv
+│   ├── olx_bydgoszcz_detailed_listings.csv
+│   ├── olx_gdansk_detailed_listings.csv
+│   ├── olx_lodz_detailed_listings.csv
+│   ├── olx_nowy-sacz_detailed_listings.csv
+│   ├── olx_poznan_detailed_listings.csv
+│   ├── olx_szczecin_detailed_listings.csv
+│   ├── olx_warszawa_detailed_listings.csv
+│   ├── olx_wroclaw_detailed_listings.csv
 ├── 📁 notebooks
 │   ├── Rental_Apartment_Prices_Web_Scraping.ipynb
+│   ├── Rental_Apartment_Prices_Preprocessing.ipynb
 ├── 📄 README.md
 ```
 
