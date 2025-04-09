@@ -83,7 +83,7 @@ The main objective is to **develop a predictive model** that estimates apartment
 │   ├── olx_wroclaw_detailed_listings.csv
 ├── 📁 notebooks
 │   ├── Rental_Apartment_Prices_Web_Scraping.ipynb
-│   ├── Rental_Apartment_Prices_Preprocessing.ipynb
+│   ├── Rental_Apartment_Prices_Clean_data.ipynb
 ├── 📄 README.md
 ```
 
